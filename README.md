@@ -4,9 +4,51 @@ This is the final project of the Principles of Compiler Design course using Lex 
 ## Phase 1(Lexical Analysis)
 | Lexeme        | Token Value   |
 | ------------- |:-------------:|
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-
+| Identifier    | right-aligned |
+| Integer number| centered      |
+| Float number  | right-aligned |
+| "int"         | centered      |
+| "float"       | right-aligned |
+| "bool"        | centered      |
+| "fun"         | right-aligned |
+| "True"        | centered      |
+| "False"       | right-aligned |
+| "print"       | centered      |
+| "return"      | right-aligned |
+| "main"        | centered      |
+| "if"          | right-aligned |
+| "else"        | centered      |
+| "elseif"      | right-aligned |
+| "while"       | centered      |
+| "on"          | right-aligned |
+| "where"       | centered      |
+| "for"         | right-aligned |
+| "and"         | centered      |
+| "or"          | right-aligned |
+| "not"         | centered      |
+| "in"          | right-aligned |
+| "="           | centered      |
+| "+"           | right-aligned |
+| "-"           | centered      |
+| "*"           | right-aligned |
+| "/"           | centered      |
+| "%"           | right-aligned |
+| ">"           | centered      |
+| ">="          | right-aligned |
+| "<"           | centered      |
+| "<="          | right-aligned |
+| "=="          | centered      |
+| "!="          | right-aligned |
+| "{"           | centered      |
+| "}"           | right-aligned |
+| "("           | centered      |
+| ")"           | right-aligned |
+| "\["          | centered      |
+| "\]"          | right-aligned |
+| ";"           | centered      |
+| ":"           | right-aligned |
+| ","           | centered      |
+| "Error"       | right-aligned |
 
 ## Why xv6? 
 Xv6 operating system is used as a programming project in most of the well-known universities such as MIT, Columbia, etc… . 
