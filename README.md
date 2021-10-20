@@ -4,51 +4,51 @@ This is the final project of the Principles of Compiler Design course using Lex 
 ## Phase 1(Lexical Analysis)
 | Lexeme        | Token Value   |
 | ------------- |:-------------:|
-| Identifier    | right-aligned |
-| Integer number| centered      |
-| Float number  | right-aligned |
-| "int"         | centered      |
-| "float"       | right-aligned |
-| "bool"        | centered      |
-| "fun"         | right-aligned |
-| "True"        | centered      |
-| "False"       | right-aligned |
-| "print"       | centered      |
-| "return"      | right-aligned |
-| "main"        | centered      |
-| "if"          | right-aligned |
-| "else"        | centered      |
-| "elseif"      | right-aligned |
-| "while"       | centered      |
-| "on"          | right-aligned |
-| "where"       | centered      |
-| "for"         | right-aligned |
-| "and"         | centered      |
-| "or"          | right-aligned |
-| "not"         | centered      |
-| "in"          | right-aligned |
-| "="           | centered      |
-| "+"           | right-aligned |
-| "-"           | centered      |
-| "*"           | right-aligned |
-| "/"           | centered      |
-| "%"           | right-aligned |
-| ">"           | centered      |
-| ">="          | right-aligned |
-| "<"           | centered      |
-| "<="          | right-aligned |
-| "=="          | centered      |
-| "!="          | right-aligned |
-| "{"           | centered      |
-| "}"           | right-aligned |
-| "("           | centered      |
-| ")"           | right-aligned |
-| "\["          | centered      |
-| "\]"          | right-aligned |
-| ";"           | centered      |
-| ":"           | right-aligned |
-| ","           | centered      |
-| "Error"       | right-aligned |
+| Identifier    | ID |
+| Integer number| INTEGERNUMBER |
+| Float number  | FLOATNUMBER   |
+| "int"         | INTEGER       |
+| "float"       | FLOAT         |
+| "bool"        | BOOLEAN       |
+| "fun"         | FUNCTION      |
+| "True"        | TRUE          |
+| "False"       | FALSE         |
+| "print"       | PRINT         |
+| "return"      | RETURN        |
+| "main"        | MAIN          |
+| "if"          | IF            |
+| "else"        | ELSE          |
+| "elseif"      | ELSEIF        |
+| "while"       | WHILE         |
+| "on"          | ON            |
+| "where"       | WHERE         |
+| "for"         | FOR           |
+| "and"         | AND           |
+| "or"          | OR            |
+| "not"         | NOT           |
+| "in"          | IN            |
+| "="           | ASSIGN        |
+| "+"           | SUM           |
+| "-"           | SUB           |  
+| "*"           | MUL           |
+| "/"           | DIV           |
+| "%"           | MOD           |
+| ">"           | GT            | 
+| ">="          | GE            |
+| "<"           | LT            |
+| "<="          | LE            |
+| "=="          | EQ            |
+| "!="          | NE            |
+| "{"           | LCB           |
+| "}"           | RCB           |
+| "("           | LRB           |
+| ")"           | RRB           |
+| "\["          | LSB           |
+| "\]"          | RSB           |
+| ";"           | SEMICOLON     |
+| ":"           | COLON         |
+| ","           | COMMA         |
+| "Error"       | ERROR!        |
 
 ## Why xv6? 
 Xv6 operating system is used as a programming project in most of the well-known universities such as MIT, Columbia, etc… . 
