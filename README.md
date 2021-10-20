@@ -1,7 +1,7 @@
 # Compiler Design Project
 ## About The Project
 This is the final project of the Principles of Compiler Design course using Lex & Yacc.
-## Phase 1(Lexical Analysis)
+## Phase 1(Lexical Analyzer)
 | Lexeme        | Token Value   |
 | ------------- |:-------------:|
 | Identifier    | ID |
@@ -50,10 +50,10 @@ This is the final project of the Principles of Compiler Design course using Lex 
 | ","           | COMMA         |
 | "Error"       | ERROR!        |
 
-## Why xv6? 
-Xv6 operating system is used as a programming project in most of the well-known universities such as MIT, Columbia, etc… . 
-But the main reason we chose xv6 is that we want students to engage with kernel programming and we want them to learn how to develop an operating system so that if you start working in a team, developing operating system you would probably know the ups and downs. Another reason for choosing xv6 is that, what is taught throughout the course can be used to make some crucial modifications in this operating system and that is what we want you to do.
-## But what do we expect you to do?
+## Phase 2(Parser)
+### Grammar :
+program -> declist main () block
+
 throughout the course according to what you have learnt we expect you to make some modifications so that you will get to know the  xv6 operating system better and you will see that developing an operating system is not as hard as you imagined and it is just a piece of cake.
 ## How are you going to make theses modifications?
 Well your xv6 project is divided into three phases.
