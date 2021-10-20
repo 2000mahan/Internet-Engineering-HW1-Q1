@@ -83,7 +83,3 @@ This is the final project of the Principles of Compiler Design course using Lex 
 
 ## Phase 3(Intermediate Code Generation)
 ![alt text](https://s4.uupload.ir/files/phase3_4te.png)
-
-## Contributers
-[Mahan Ahmadvand](https://github.com/2000mahan) <br />
-[Mohammad Sami](https://github.com/MohammadMDSA) <br />
