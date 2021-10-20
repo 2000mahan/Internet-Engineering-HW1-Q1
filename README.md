@@ -5,6 +5,26 @@ This is the final project of the Principles of Compiler Design course using Lex 
 [Mahan Ahmadvand](https://github.com/2000mahan) <br />
 [Mohammad Sami](https://github.com/MohammadMDSA) <br />
 
+### Built With
+
+* [PLY (Python Lex-Yacc)](https://www.dabeaz.com/ply/)
+* [Python](https://www.python.org)
+
+## License
+
+Distributed under the GNU License. See `LICENSE.txt` for more information.
+
+## Contact
+
+Your Name - Mahan Ahmadvand
+
+Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.com/2000mahan/web-engineering-HW1)
+
+## Acknowledgments
+
+* [https://www.python.org/doc/](https://www.python.org/doc/)
+* [https://www.dabeaz.com/ply/](https://www.dabeaz.com/ply/)
+
 ## Phase 1(Lexical Analyzer)
 | Lexeme        | Token Value   |
 | ------------- |:-------------:|
