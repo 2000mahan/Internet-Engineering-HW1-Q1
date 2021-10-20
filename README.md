@@ -77,8 +77,9 @@ This is the final project of the Principles of Compiler Design course using Lex 
 `relop -> > | < | != | == | <= | >=` <br />
 `explist -> exp | explist, exp` <br />
 
+## Phase 3(Intermediate Code Generation)
+![alt text](https://s4.uupload.ir/files/phase3_4te.png)
 
-throughout the course according to what you have learnt we expect you to make some modifications so that you will get to know the  xv6 operating system better and you will see that developing an operating system is not as hard as you imagined and it is just a piece of cake.
 ## How are you going to make theses modifications?
 Well your xv6 project is divided into three phases.
 In the first two phases we want you to make some modifications to get to know with xv6 operating system and during that we will be available to help you throughout the course so don’t worry.
