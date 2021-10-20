@@ -18,7 +18,9 @@
         <li><a href="#phase-1(Lexical-Analyzer)">Phase 1(Lexical Analyzer)</a></li>
         <li>
           <a href="#phase-2(Parser)">Phase 2(Parser)</a>
+         <ul>
           <li><a href="#grammar">Grammar</a></li>
+         </ul>
         </li>
         <li><a href="#phase-3(Intermediate-Code-Generation)">Phase 3(Intermediate Code Generation)</a></li>
     </ul>
