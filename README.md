@@ -52,20 +52,30 @@ This is the final project of the Principles of Compiler Design course using Lex 
 
 ## Phase 2(Parser)
 ### Grammar :
-`program -> declist main () block`
-`declist -> dec | declist dec | ε`
-`dec -> vardec | funcdec`
-`type -> int | float | bool`
-`iddec -> id |id[exp] | id=exp`
-`idlist -> iddec | idlist, iddec`
-`vardec -> idlist:type;`
-`funcdec -> fun id (paramdecs):type block | fun id (paramdecs) block`
-`paramdecs -> paramdecslist | ε`
-`paramdecslist -> paramdec | paramdecslist, paramdec`
-`paramdec -> id:type | id[]:type`
-`paramdec -> id:type | id[]:type`
-
-
+`program -> declist main () block` <br />
+`declist -> dec | declist dec | ε` <br />
+`dec -> vardec | funcdec` <br />
+`type -> int | float | bool` <br />
+`iddec -> id |id [exp] | id=exp` <br />
+`idlist -> iddec | idlist, iddec` <br />
+`vardec -> idlist:type;` <br />
+`funcdec -> fun id (paramdecs):type block | fun id (paramdecs) block` <br />
+`paramdecs -> paramdecslist | ε` <br />
+`paramdecslist -> paramdec | paramdecslist, paramdec` <br />
+`paramdec -> id:type | id []:type` <br />
+`block -> {stmtlist}` <br />
+`stmtlist -> stmt | stmlist stmt | ε` <br />
+`lvalue -> id | id[exp]` <br />
+`case -> where const:stmtlist` <br />
+`cases -> case | cases case | ε` <br />
+`stmt -> return exp; | exp; | block | vardec | while (exp) stmt | on (exp) {cases}; | for (exp; exp; exp) stmt | for (id in id) stmt | if (exp) stmt elseiflist | if (exp) stmt elseif else stmt | print (id)` <br />
+`elseiflist -> elseif (exp) stmt | elseiflist elseif (exp) stmt | ε` <br />
+`relopexp -> exp relop exp | relopexp relop exp` <br />
+`exp -> lvalue=exp | exp operator exp | relopexp | const | lvalue | id (explist) | (exp) | id () | - exp | not exp` <br />
+`operator -> and | or | + | - | * | / | %` <br />
+`const -> intnumber | floatnumber | True | False` <br />
+`relop -> > | < | != | == | <= | >=` <br />
+`explist -> exp | explist, exp` <br />
 
 
 throughout the course according to what you have learnt we expect you to make some modifications so that you will get to know the  xv6 operating system better and you will see that developing an operating system is not as hard as you imagined and it is just a piece of cake.
