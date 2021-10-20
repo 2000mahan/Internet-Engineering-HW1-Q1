@@ -80,6 +80,11 @@ This is the final project of the Principles of Compiler Design course using Lex 
 ## Phase 3(Intermediate Code Generation)
 ![alt text](https://s4.uupload.ir/files/phase3_4te.png)
 
+## Contributers
+[Mahan Ahmadvand](https://github.com/2000mahan) <br />
+[Mohammad Sami](https://github.com/MohammadMDSA) <br />
+
+
 ## How are you going to make theses modifications?
 Well your xv6 project is divided into three phases.
 In the first two phases we want you to make some modifications to get to know with xv6 operating system and during that we will be available to help you throughout the course so don’t worry.
