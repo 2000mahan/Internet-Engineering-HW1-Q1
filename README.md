@@ -21,6 +21,7 @@
           <li><a href="#grammar">Grammar</a></li>
         </li>
         <li><a href="#phase-3(Intermediate-Code-Generation)">Phase 3(Intermediate Code Generation)</a></li>
+    </ul>
     </li>
   </ol>
 </details>
