@@ -3,7 +3,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#abouttheproject">About The Project</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#contributers">Contributers</a></li>
         <li><a href="#built-with">Built With</a></li>
@@ -15,7 +15,7 @@
     <li>
       <a href="#phases">Phases</a>
       <ul>
-        <li><a href="#phase-1(Lexical-Analyzer)">Phase 1(Lexical Analyzer)</a></li>
+        <li><a href="#phase-1">Phase 1</a></li>
         <li>
           <a href="#phase-2(Parser)">Phase 2(Parser)</a>
          <ul>
@@ -62,7 +62,7 @@ Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.
 
 ## Phases
 
-### Phase 1(Lexical Analyzer)
+### Phase 1
 | Lexeme        | Token Value   |
 | ------------- |:-------------:|
 | Identifier    | ID |
