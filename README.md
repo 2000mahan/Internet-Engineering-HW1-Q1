@@ -17,12 +17,12 @@
       <ul>
         <li><a href="#phase-1">Phase 1</a></li>
         <li>
-          <a href="#phase-2(Parser)">Phase 2(Parser)</a>
+          <a href="#phase-2">Phase 2</a>
          <ul>
           <li><a href="#grammar">Grammar</a></li>
          </ul>
         </li>
-        <li><a href="#phase-3(Intermediate-Code-Generation)">Phase 3(Intermediate Code Generation)</a></li>
+        <li><a href="#phase-3">Phase 3</a></li>
     </ul>
     </li>
   </ol>
@@ -63,6 +63,7 @@ Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.
 ## Phases
 
 ### Phase 1
+Lexical Analyzer <br />
 | Lexeme        | Token Value   |
 | ------------- |:-------------:|
 | Identifier    | ID |
@@ -113,7 +114,8 @@ Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Phase 2(Parser)
+### Phase 2
+Parser <br />
 #### Grammar :
 `program -> declist main () block` <br />
 `declist -> dec | declist dec | ε` <br />
@@ -142,7 +144,8 @@ Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Phase 3(Intermediate Code Generation)
+### Phase 3
+Intermediate Code Generation <br />
 ![alt text](https://s4.uupload.ir/files/phase3_4te.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
