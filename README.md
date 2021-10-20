@@ -1,4 +1,26 @@
 # Compiler Design Project
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#contributers">Contributers</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li>
+      <a href="#phases">Phases</a>
+      <ul>
+        <li><a href="#phase-1">Phase 1</a></li>
+        <li><a href="#phase-2">Phase 2</a></li>
+        <li><a href="#phase-3">Phase 3</a></li>
+    </li>
+  </ol>
+</details>
 ## About The Project
 This is the final project of the Principles of Compiler Design course using Lex & Yacc.
 ### Contributers
