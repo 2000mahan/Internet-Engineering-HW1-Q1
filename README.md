@@ -3,7 +3,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#abouttheproject">About The Project</a>
       <ul>
         <li><a href="#contributers">Contributers</a></li>
         <li><a href="#built-with">Built With</a></li>
@@ -15,14 +15,14 @@
     <li>
       <a href="#phases">Phases</a>
       <ul>
-        <li><a href="#phase1(Lexical-Analyzer)">Phase 1(Lexical Analyzer)</a></li>
+        <li><a href="#phase-1(Lexical-Analyzer)">Phase 1(Lexical Analyzer)</a></li>
         <li>
-          <a href="#phase2(Parser)">Phase 2(Parser)</a>
+          <a href="#phase-2(Parser)">Phase 2(Parser)</a>
          <ul>
           <li><a href="#grammar">Grammar</a></li>
          </ul>
         </li>
-        <li><a href="#phase3(Intermediate-Code-Generation)">Phase 3(Intermediate Code Generation)</a></li>
+        <li><a href="#phase-3(Intermediate-Code-Generation)">Phase 3(Intermediate Code Generation)</a></li>
     </ul>
     </li>
   </ol>
