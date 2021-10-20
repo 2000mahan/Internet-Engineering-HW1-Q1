@@ -21,6 +21,7 @@
     </li>
   </ol>
 </details>
+
 ## About The Project
 This is the final project of the Principles of Compiler Design course using Lex & Yacc.
 ### Contributers
