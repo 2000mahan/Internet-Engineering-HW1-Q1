@@ -14,18 +14,26 @@ This is the final project of the Principles of Compiler Design course using Lex 
 
 Distributed under the GNU License. See `LICENSE.txt` for more information.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Contact
 
 Your Name - Mahan Ahmadvand
 
 Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.com/2000mahan/web-engineering-HW1)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Acknowledgments
 
 * [https://www.python.org/doc/](https://www.python.org/doc/)
 * [https://www.dabeaz.com/ply/](https://www.dabeaz.com/ply/)
 
-## Phase 1(Lexical Analyzer)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Phases
+
+### Phase 1(Lexical Analyzer)
 | Lexeme        | Token Value   |
 | ------------- |:-------------:|
 | Identifier    | ID |
@@ -74,8 +82,10 @@ Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.
 | ","           | COMMA         |
 | "Error"       | ERROR!        |
 
-## Phase 2(Parser)
-### Grammar :
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Phase 2(Parser)
+#### Grammar :
 `program -> declist main () block` <br />
 `declist -> dec | declist dec | ε` <br />
 `dec -> vardec | funcdec` <br />
@@ -101,5 +111,9 @@ Project Link: [https://github.com/2000mahan/web-engineering-HW1](https://github.
 `relop -> > | < | != | == | <= | >=` <br />
 `explist -> exp | explist, exp` <br />
 
-## Phase 3(Intermediate Code Generation)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Phase 3(Intermediate Code Generation)
 ![alt text](https://s4.uupload.ir/files/phase3_4te.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
