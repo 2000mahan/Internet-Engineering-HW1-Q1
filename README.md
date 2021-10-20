@@ -16,12 +16,7 @@
       <a href="#phases">Phases</a>
       <ul>
         <li><a href="#phase-1">Phase 1</a></li>
-        <li>
-          <a href="#phase-2">Phase 2</a>
-         <ul>
-          <li><a href="#grammar">Grammar</a></li>
-         </ul>
-        </li>
+        <li><a href="#phase-2">Phase 2</a></li>
         <li><a href="#phase-3">Phase 3</a></li>
     </ul>
     </li>
@@ -116,7 +111,7 @@ Lexical Analyzer <br />
 
 ### Phase 2
 Parser <br />
-#### Grammar :
+Grammar : <br />
 `program -> declist main () block` <br />
 `declist -> dec | declist dec | ε` <br />
 `dec -> vardec | funcdec` <br />
