@@ -15,9 +15,12 @@
     <li>
       <a href="#phases">Phases</a>
       <ul>
-        <li><a href="#phase-1">Phase 1</a></li>
-        <li><a href="#phase-2">Phase 2</a></li>
-        <li><a href="#phase-3">Phase 3</a></li>
+        <li><a href="#phase-1(Lexical-Analyzer)">Phase 1(Lexical Analyzer)</a></li>
+        <li>
+          <a href="#phase-2(Parser)">Phase 2(Parser)</a>
+          <li><a href="#grammar">Grammar</a></li>
+        </li>
+        <li><a href="#phase-3(Intermediate-Code-Generation)">Phase 3(Intermediate Code Generation)</a></li>
     </li>
   </ol>
 </details>
