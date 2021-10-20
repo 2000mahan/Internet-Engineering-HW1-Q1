@@ -52,7 +52,7 @@ This is the final project of the Principles of Compiler Design course using Lex 
 
 ## Phase 2(Parser)
 ### Grammar :
-program -> declist main () block
+`program -> declist main () block`
 
 throughout the course according to what you have learnt we expect you to make some modifications so that you will get to know the  xv6 operating system better and you will see that developing an operating system is not as hard as you imagined and it is just a piece of cake.
 ## How are you going to make theses modifications?
