@@ -4,8 +4,6 @@ This is the final project of the Principles of Compiler Design course using Lex 
 ### Contributers
 [Mahan Ahmadvand](https://github.com/2000mahan) <br />
 [Mohammad Sami](https://github.com/MohammadMDSA) <br />
-### Instructor
-Dr.Mohammadreza Razzazi
 
 ## Phase 1(Lexical Analyzer)
 | Lexeme        | Token Value   |
